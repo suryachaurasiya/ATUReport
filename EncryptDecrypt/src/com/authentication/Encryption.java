@@ -14,7 +14,7 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 public class Encryption {
 public String encrypt(String word) throws Exception {
     byte[] ivBytes;
-    String password="Hello"; 
+    String password="!@#$%^&***&^%$%^&^^^RrtfdfgEDFGFDFF"; 
 /*you can give whatever you want for password. This is for testing purpose*/
     SecureRandom random = new SecureRandom();
     byte bytes[] = new byte[20];
