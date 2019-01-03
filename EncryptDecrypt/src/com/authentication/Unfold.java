@@ -15,7 +15,7 @@ import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 public class Unfold {
   @SuppressWarnings("static-access")
   public String unravel(String encryptedText) throws Exception {
-    String password="Hello";
+    String password="!@#$%$#$%^%$#$%$WSDFDSDFWERS2345resdffdffd";
     Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
     //strip off the salt and iv
     ByteBuffer buffer = ByteBuffer.wrap(new Base64().decode(encryptedText));
