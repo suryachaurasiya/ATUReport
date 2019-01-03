@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.flowSportsLife.FlowSportsLife">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="flowSportData"/>
+        </methods>
+      </class> <!-- com.flowSportsLife.FlowSportsLife -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TestOne(failed)">
+    <classes>
+      <class name="utility.TestClassOne">
+        <methods>
+          <include name="testMethodSkip"/>
+          <include name="testMethodFail"/>
+        </methods>
+      </class> <!-- utility.TestClassOne -->
+    </classes>
+  </test> <!-- TestOne(failed) -->
+  <test name="TestTwo(failed)">
+    <classes>
+      <class name="utility.TestClassTwo">
+        <methods>
+          <include name="testMethodFail"/>
+          <include name="testMethodSkip"/>
+        </methods>
+      </class> <!-- utility.TestClassTwo -->
+    </classes>
+  </test> <!-- TestTwo(failed) -->
+</suite> <!-- Failed suite [Suite] -->

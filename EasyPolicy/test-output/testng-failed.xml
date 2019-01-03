@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="HealthProduct.HealthProductJourneyWithExcel">
+        <methods>
+          <include name="CustomerEmail"/>
+          <include name="suiteTearDown"/>
+          <include name="Adult"/>
+          <include name="Child"/>
+          <include name="GetLiveQuotes"/>
+          <include name="DOB"/>
+          <include name="suiteSetUp"/>
+          <include name="City"/>
+          <include name="CustomerProceed"/>
+          <include name="EldestMember"/>
+          <include name="FillLoginDetails"/>
+          <include name="getResult"/>
+          <include name="CustomerPopup"/>
+          <include name="QuotesBuyNow" invocation-numbers="0 1 2 0 1 2"/>
+          <include name="LaunchWebsite"/>
+        </methods>
+      </class> <!-- HealthProduct.HealthProductJourneyWithExcel -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

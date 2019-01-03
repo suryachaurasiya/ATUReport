@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="5" total="12" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="153633" started-at="2017-08-23T11:59:36Z" finished-at="2017-08-23T12:02:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="153633" started-at="2017-08-23T11:59:36Z" finished-at="2017-08-23T12:02:10Z">
+      <class name="pensionProduct.PensionProductJourney">
+        <test-method status="PASS" signature="config()[pri:0, instance:pensionProduct.PensionProductJourney@cb5822]" name="config" is-config="true" duration-ms="127" started-at="2017-08-23T17:29:36Z" finished-at="2017-08-23T17:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:pensionProduct.PensionProductJourney@cb5822]" name="suiteSetUp" is-config="true" duration-ms="4994" started-at="2017-08-23T17:29:36Z" finished-at="2017-08-23T17:29:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="FAIL" signature="CustomerEmail()[pri:0, instance:pensionProduct.PensionProductJourney@cb5822]" name="CustomerEmail" duration-ms="5194" started-at="2017-08-23T17:29:41Z" description="Fill Customer Email in Customer Popup" finished-at="2017-08-23T17:29:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pensionProduct.PensionProductJourney.CustomerEmail(PensionProductJourney.java:311)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerEmail -->
+        <test-method status="FAIL" signature="CustomerMobno()[pri:0, instance:pensionProduct.PensionProductJourney@cb5822]" name="CustomerMobno" duration-ms="5111" started-at="2017-08-23T17:29:47Z" description="Fill Customer Mobile Number in Customer Popup" finished-at="2017-08-23T17:29:52Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pensionProduct.PensionProductJourney.CustomerMobno(PensionProductJourney.java:334)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerMobno -->
+        <test-method status="FAIL" signature="CustomerPopup()[pri:0, instance:pensionProduct.PensionProductJourney@cb5822]" name="CustomerPopup" duration-ms="13121" started-at="2017-08-23T17:29:52Z" description="Fill Customer Name in Customer Popup" finished-at="2017-08-23T17:30:05Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pensionProduct.PensionProductJourney.CustomerPopup(PensionProductJourney.java:288)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerPopup -->
+        <test-method status="FAIL" signature="CustomerProceed()[pri:0, instance:pensionProduct.PensionProductJourney@cb5822]" name="CustomerProceed" duration-ms="5083" started-at="2017-08-23T17:30:05Z" description="Click Proceed button on Customer Popup" finished-at="2017-08-23T17:30:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pensionProduct.PensionProductJourney.CustomerProceed(PensionProductJourney.java:357)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerProceed -->
+        <test-method status="PASS" signature="LaunchWebsite()[pri:1, instance:pensionProduct.PensionProductJourney@cb5822]" name="LaunchWebsite" duration-ms="7387" started-at="2017-08-23T17:30:10Z" description="Open Easypolicy Website for Pension Product Journey" finished-at="2017-08-23T17:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite -->
+        <test-method status="PASS" signature="FillLoginDetails()[pri:2, instance:pensionProduct.PensionProductJourney@cb5822]" name="FillLoginDetails" duration-ms="5451" started-at="2017-08-23T17:30:17Z" description="Click on Pension product link " finished-at="2017-08-23T17:30:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginDetails -->
+        <test-method status="PASS" signature="EldestMember()[pri:3, instance:pensionProduct.PensionProductJourney@cb5822]" name="EldestMember" duration-ms="1118" started-at="2017-08-23T17:30:23Z" description="Select Member Gender" finished-at="2017-08-23T17:30:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EldestMember -->
+        <test-method status="PASS" signature="ChildDOB()[pri:4, instance:pensionProduct.PensionProductJourney@cb5822]" name="ChildDOB" duration-ms="3405" started-at="2017-08-23T17:30:24Z" description="Enter DOB" finished-at="2017-08-23T17:30:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChildDOB -->
+        <test-method status="PASS" signature="InvestAmount()[pri:5, instance:pensionProduct.PensionProductJourney@cb5822]" name="InvestAmount" duration-ms="1405" started-at="2017-08-23T17:30:27Z" description="Input Invest amount" finished-at="2017-08-23T17:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvestAmount -->
+        <test-method status="PASS" signature="pensionmobile()[pri:6, instance:pensionProduct.PensionProductJourney@cb5822]" name="pensionmobile" duration-ms="1448" started-at="2017-08-23T17:30:29Z" description="Insert mobile no in pension form" finished-at="2017-08-23T17:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pensionmobile -->
+        <test-method status="PASS" signature="GetLiveQuotes()[pri:7, instance:pensionProduct.PensionProductJourney@cb5822]" name="GetLiveQuotes" duration-ms="8752" started-at="2017-08-23T17:30:30Z" description="Click Get Live Quotes Button" finished-at="2017-08-23T17:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetLiveQuotes -->
+        <test-method status="FAIL" signature="QuotesBuyNow()[pri:8, instance:pensionProduct.PensionProductJourney@cb5822]" name="QuotesBuyNow" duration-ms="85395" started-at="2017-08-23T17:30:39Z" description="Quotes page journey" finished-at="2017-08-23T17:32:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pensionProduct.PensionProductJourney.CustomerProceed(PensionProductJourney.java:357)
+	at pensionProduct.PensionProductJourney.QuotesBuyNow(PensionProductJourney.java:376)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuotesBuyNow -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:pensionProduct.PensionProductJourney@cb5822]" name="suiteTearDown" is-config="true" duration-ms="5546" started-at="2017-08-23T17:32:04Z" finished-at="2017-08-23T17:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+        <test-method status="PASS" signature="endreport()[pri:0, instance:pensionProduct.PensionProductJourney@cb5822]" name="endreport" is-config="true" duration-ms="32" started-at="2017-08-23T17:32:10Z" finished-at="2017-08-23T17:32:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- pensionProduct.PensionProductJourney -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21893" started-at="2017-08-22T04:57:52Z" finished-at="2017-08-22T04:58:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21893" started-at="2017-08-22T04:57:52Z" finished-at="2017-08-22T04:58:14Z">
+      <class name="com.abc.Abc">
+        <test-method status="PASS" signature="abcTest()[pri:0, instance:com.abc.Abc@3e6fa38a]" name="abcTest" duration-ms="21802" started-at="2017-08-22T10:27:52Z" finished-at="2017-08-22T10:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abcTest -->
+      </class> <!-- com.abc.Abc -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
